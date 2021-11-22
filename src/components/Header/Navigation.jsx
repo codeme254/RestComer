@@ -7,7 +7,7 @@ const Navigation = () => {
     }
     return(
         <div className="nav-container">
-        <nav className="nav hidden" ref={navBar}>
+        <nav className="nav" ref={navBar}>
            <ol className="nav__list">
                 <li className="nav__item"><a href="/" className="nav__item--link">home</a></li>
                 <li className="nav__item"><a href="/" className="nav__item--link">about us</a></li>
