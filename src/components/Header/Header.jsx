@@ -1,9 +1,11 @@
 import React from 'react';
-
+import TopHeader from './TopHeader';
+import Navigation from './Navigation';
 const Header = () => {
-    return(
+    return (
         <div>
-            <h1>this is the header of the pestlibro website</h1>
+            <TopHeader />
+            <Navigation />
         </div>
     )
 }
