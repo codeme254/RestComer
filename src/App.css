@@ -184,3 +184,84 @@ body{
     margin-bottom: 1rem;
   }
 }
+
+/* home section of the website */
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)),url(./Assets/Images/salad-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.home__title{
+  color: var(--col-white);
+}
+.home__title--main{
+  display: block;
+  font-size: 7rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.home__title--sub{
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.home__hunger--text{
+  font-size: 2rem;
+  color: var(--col-white);
+  padding: 1rem;
+  border-top: 1px solid white;
+}
+.home__hunger--button, .home__hunger--button:link, .home__hunger--button:visited{
+  color: var(--col-white);
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--col-p-2);
+  border-radius: 5px;
+  transition: all .3s;
+}
+.home__hunger--button:hover{
+  background-color: var(--col-p-1);
+}
+@media only screen and (max-width: 830px){
+  .home__title--main{
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 720px){
+  .home__title--main{
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 605px){
+  .home__title--main{
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 490px){
+  .home__title--main{
+    font-size: 3rem;
+  }
+  .home__hunger--text{
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 360px){
+  .home__title--main{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .home__hunger--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
