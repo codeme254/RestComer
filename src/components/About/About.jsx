@@ -1,7 +1,6 @@
 import React from 'react';
 import TertiaryHeading from '../Typography/SecondaryHeading';
 import hotdog from '../../Assets/Images/hotdog.png'
-import hotd from '../../Assets/Images/hotdog-with-energy-drink.png'
 
 const About = () => {
     return(
