@@ -337,3 +337,130 @@ body{
     margin: auto;
   }
 }
+
+/* styling the meals section of the webpage */
+/* .meals{
+  height: 90vh;
+  max-height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url(./Assets/Images/plateFood.png);
+  background-position: center;
+  background-size: cover;
+} */
+.meal-card{
+  padding: 1rem;
+  position: relative;
+  /* border: 1px solid red; */
+  box-shadow: 0 0 3px;
+}
+.meal-card__discount{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--col-black);
+  color: var(--col-white);
+  font-size: 2rem;
+  padding: 2rem;
+  width: 10rem;
+  height: 10rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  transform: rotate(-15deg);
+  cursor: pointer;
+  transition: all .3s;
+}
+.meal-card__discount:hover{
+  transform: rotate(0);
+}
+.meal-card__discount--value{
+  font-style: oblique;
+}
+.meals__container{
+  max-width: 1300px;
+  background-color: #f0f0f0;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 3rem;
+}
+@media screen and (max-width: 700px){
+  .meals__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.meal-card__image{
+  --height: 300px;
+  width: 100%;
+  height: var(--height);
+  min-height: var(--height);
+  max-height: var(--height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meal-card__image--img{
+  width: 30rem;
+  margin: auto;
+}
+
+.meal-card__description--title{
+  padding: 1rem;
+  font-size: 3rem;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.meal-card__description--description{
+  padding: 0 2rem;
+  text-align: justify;
+  font-size: 1.6rem;
+}
+.meal-card__button{
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.meal-card__button--btn, .meal-card__button--btn:visited, .meal-card__button--btn:link{
+  display: inline-block;
+  font-size: 2rem;
+  color: var(--col-white);
+  background-color: var(--col-p-3);
+  padding: .8rem 1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 3px;
+  transition: all .4s;
+}
+.meal-card__button--btn:hover{
+  transform: scaleX(1.2);
+}
+.all-meals__button{
+  padding: 2rem;
+  text-align: center;
+}
+.all-meals__button--btn, .all-meals__button--btn:visited, .all-meals__button--btn:link{
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  letter-spacing: 1.7px;
+  background-color: var(--col-p-2);
+  border-radius: 5px;
+  color: var(--col-white);
+  transition: all .3s ease;
+}
+.all-meals__button--btn:hover{
+  transform: scale(1.2);
+}
