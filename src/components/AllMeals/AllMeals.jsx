@@ -20,7 +20,7 @@ const AllMeals = () => {
                     Firmament heaven yielding third years, also bearing moveth good also. Evening upon life darkness whales brought they're, for beginning said sea fifth, whales isn't. I darkness set. Two god seas."
                  />
                 <Meal
-                    discount="15%"
+                    discount="10%"
                     imageLink={pizza}
                     mealName="pepperoni pizza"
                     mealDescription="Bearing And Let Day Created Moving
@@ -28,7 +28,7 @@ const AllMeals = () => {
                     Firmament heaven yielding third years, also bearing moveth good also. Evening upon life darkness whales brought they're, for beginning said sea fifth, whales isn't. I darkness set. Two god seas."
                  />
                 <Meal
-                    discount="15%"
+                    discount="20%"
                     imageLink={sandwich}
                     mealName="sandwich"
                     mealDescription="Bearing And Let Day Created Moving
@@ -36,7 +36,7 @@ const AllMeals = () => {
                     Firmament heaven yielding third years, also bearing moveth good also. Evening upon life darkness whales brought they're, for beginning said sea fifth, whales isn't. I darkness set. Two god seas."
                  />
                 <Meal
-                    discount="15%"
+                    discount="25%"
                     imageLink={hotdogg2}
                     mealName="hotdogs"
                     mealDescription="Bearing And Let Day Created Moving
