@@ -5,3 +5,4 @@ social
 about
 all-meals
 order
+testimonials
