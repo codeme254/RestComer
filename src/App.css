@@ -712,3 +712,87 @@ body{
     width: 100%;
   }
 }
+
+/* the footer part of the website */
+.footer__header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 1.8px;
+}
+.footer__container{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 3rem;
+}
+.footer{
+  color: var(--col-white);
+  background-color: var(--col-black-light);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.footer__company-description{
+  text-align: left;
+}
+.footer__company-description--description{
+  text-align: justify;
+  line-height: 1.5;
+}
+.footer-links{
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.footer__nav{
+  list-style: none;
+}
+.footer__nav>*:not(:last-child){
+  margin-bottom: 1rem;
+}
+.footer__item--link, .footer__item--link:visited, .footer__item--link:link{
+  text-decoration: none;
+  color: var(--col-white);
+  letter-spacing: 1.8px;
+  text-transform: capitalize;
+}
+.footer__item{
+  padding: .5rem 1rem;
+  box-shadow: 0 0 3px;
+  transition: all .3s;
+}
+.footer__item:hover{
+  box-shadow: 0 0 6px var(--col-p-3);
+}
+.footer__contact--list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.footer__contact--list>*:not(:last-child){
+  margin-bottom: 1rem;
+}
+.footer__contact--link{
+  text-decoration: none;
+  letter-spacing: 1.8px;
+  color: var(--col-white);
+}
+.footer__social--list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.footer__social--list>*:not(:last-child){
+  margin-bottom: 1rem;
+}
+.footer__social--link, .footer__social--link:visited, .footer__social--link:link{
+  text-decoration: none;
+  color: var(--col-white);
+  letter-spacing: 1.8px;
+}
+
+@media screen and (max-width: 960px) {
+  .footer__container{
+    display: flex;
+    flex-direction: column;
+  }
+}
