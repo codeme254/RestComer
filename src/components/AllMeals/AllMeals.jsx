@@ -5,7 +5,7 @@ import hotdog from '../../Assets/Images/hotdog.png';
 import pizza from '../../Assets/Images/pizza.png';
 import hotdogg2 from '../../Assets/Images/hotdogg2.png';
 import sandwich from '../../Assets/Images/sandwich.png';
-
+// {imageLink, mealName, discount, price}
 const AllMeals = () => {
     return(
         <section className="meals">
@@ -15,33 +15,25 @@ const AllMeals = () => {
                     discount="15%"
                     imageLink={hotdog}
                     mealName="hamburger"
-                    mealDescription="Bearing And Let Day Created Moving
-                    Without Image One Heaven Third Hath
-                    Firmament heaven yielding third years, also bearing moveth good also. Evening upon life darkness whales brought they're, for beginning said sea fifth, whales isn't. I darkness set. Two god seas."
+                    price='3'
                  />
                 <Meal
                     discount="10%"
                     imageLink={pizza}
                     mealName="pepperoni pizza"
-                    mealDescription="Bearing And Let Day Created Moving
-                    Without Image One Heaven Third Hath
-                    Firmament heaven yielding third years, also bearing moveth good also. Evening upon life darkness whales brought they're, for beginning said sea fifth, whales isn't. I darkness set. Two god seas."
+                    price='10'
                  />
                 <Meal
                     discount="20%"
                     imageLink={sandwich}
                     mealName="sandwich"
-                    mealDescription="Bearing And Let Day Created Moving
-                    Without Image One Heaven Third Hath
-                    Firmament heaven yielding third years, also bearing moveth good also. Evening upon life darkness whales brought they're, for beginning said sea fifth, whales isn't. I darkness set. Two god seas."
+                    price='2.5'
                  />
                 <Meal
                     discount="25%"
                     imageLink={hotdogg2}
                     mealName="hotdogs"
-                    mealDescription="Bearing And Let Day Created Moving
-                    Without Image One Heaven Third Hath
-                    Firmament heaven yielding third years, also bearing moveth good also. Evening upon life darkness whales brought they're, for beginning said sea fifth, whales isn't. I darkness set. Two god seas."
+                    price='3.5'
                  />
             </div>
             <div className="all-meals__button">
